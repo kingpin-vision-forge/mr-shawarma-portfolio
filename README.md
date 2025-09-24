@@ -1,54 +1,43 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/grilli)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/grilli?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/grilli?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/CjVGp5kGHxA?style=social)](https://youtu.be/CjVGp5kGHxA)
+# Mr. Shawarma Portfolio
 
-  <br />
-  <br />
+This repository now runs the Mr. Shawarma restaurant site on [Next.js](https://nextjs.org/) using the App Router while preserving the original HTML layout and styling.
 
-  <h2 align="center">Grilli - Restaurant Website</h2>
+Static assets live in `public/assets` and the original static HTML files are kept in the root directory for reference.
 
-  Grilli is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+## Getting Started
 
-  <a href="https://codewithsadee.github.io/grilli/"><strong>➥ Live Demo</strong></a>
-
-</div>
-
-<br />
-
-### Demo Screeshots
-
-![Grilli Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Grilli** locally, run this command on your git bash:
-
-Linux and macOS:
+Install dependencies:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/grilli.git
+npm install
 ```
 
-Windows:
+Run the development server:
 
 ```bash
-git clone https://github.com/codewithsadee/grilli.git
+npm run dev
 ```
 
-### Contact
+Create a production build:
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+```bash
+npm run build
+```
 
-### License
+The compiled app is fully static, so you can deploy the `out` or `.next` output to any static host.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Project Structure
+
+- `app/` – Next.js routes (`/`, `/menu`, `/blog`)
+- `components/` – Page wrappers rendering the preserved HTML markup
+- `public/assets/` – Fonts, images, CSS, and scripts carried over from the static site
+
+## Notes
+
+- The interaction script (`public/assets/js/script.js`) now includes safety guards so it can run on every page without console errors.
+- Replace `public/assets/images/store-1.jpg` and `store-2.jpg` with real store photos if you have them—currently they reuse blog imagery.
+- The legacy static files (`index.html`, `menu.html`, `blog.html`) remain untouched for comparison.
+
+## License
+
+[MIT](LICENSE)
