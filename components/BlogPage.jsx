@@ -3,7 +3,7 @@ const markup = `
       <div class="container">
         <a href="/#home" class="logo">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/logo-white.png"
             width="160"
             height="50"
             alt="Mr.Shawarma - Home"
@@ -15,7 +15,7 @@ const markup = `
           </button>
           <a href="/#home" class="logo">
             <img
-              src="/assets/images/logo.svg"
+              src="/assets/images/logo-white.png"
               width="160"
               height="50"
               alt="Mr.Shawarma - Home"
@@ -193,7 +193,7 @@ const markup = `
           <div class="footer-brand has-before has-after">
             <a href="/#home" class="logo">
               <img
-                src="/assets/images/logo.svg"
+                src="/assets/images/logo-white.png"
                 width="160"
                 height="50"
                 loading="lazy"
@@ -207,7 +207,7 @@ const markup = `
               >info@mrshawarma.com</a
             >
             <a href="tel:+911234567890" class="body-4 contact-link"
-              >Booking Request : +91-123-456-7890</a
+              >Booking Request : +91 74111 51139</a
             >
             <p class="body-4">Open : 11:00 am - 9:30 pm</p>
             <div class="wrapper">
