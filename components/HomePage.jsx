@@ -1,7 +1,13 @@
 const markup = `
 <div class="preload" data-preaload>
-      <div class="circle"></div>
-      <p class="text">Mr.Shawarma</p>
+      <img
+        class="preload-logo"
+        src="/assets/images/logo.png"
+        width="520"
+        height="520"
+        alt="Mr.Shawarma logo"
+        loading="eager"
+      />
     </div>
     <div class="topbar">
       <div class="container">
@@ -22,7 +28,7 @@ const markup = `
           <div class="icon">
             <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
           </div>
-          <span class="span">+91 123 456 7890</span>
+          <span class="span">+91 74111 51139</span>
         </a>
       </div>
     </div>
@@ -30,7 +36,7 @@ const markup = `
       <div class="container">
         <a href="#home" class="logo">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/images/logo-white.png"
             width="160"
             height="50"
             alt="Mr.Shawarma - Home"
@@ -42,7 +48,7 @@ const markup = `
           </button>
           <a href="#home" class="logo">
             <img
-              src="/assets/images/logo.svg"
+              src="/assets/images/logo-white.png"
               width="160"
               height="50"
               alt="Mr.Shawarma - Home"
@@ -205,28 +211,39 @@ const markup = `
             <p class="section-subtitle label-2">Our Locations</p>
             <h2 class="headline-1 section-title">Visit Our Stores</h2>
             <div class="store-locations grid-list">
-              <div class="store-card">
+              <a
+                class="store-card"
+                href="/stores/bagalkot.html"
+                aria-label="View Bagalkot branch gallery"
+              >
                 <figure
                   class="card-banner img-holder"
                   style="--width: 300; --height: 200"
                 >
                   <img
-                    src="/assets/images/store-1.jpg"
+                    src="/assets/images/bagalkot-1.jpg"
                     width="300"
                     height="200"
                     loading="lazy"
-                    alt="Navanagar Branch"
+                    alt="Bagalkot branch exterior"
                     class="img-cover"
                   />
                 </figure>
-                <h3 class="title-2">Navanagar Branch</h3>
-                <address class="body-4">
-                  Anjuman Complex, Navanagar <br />
-                  Bagalkot, Karnataka 587103
-                </address>
-                <p class="body-4">Open: 11:00 am - 9:30 pm</p>
-              </div>
-              <div class="store-card">
+                <div class="store-card-content">
+                  <h3 class="title-2">Bagalkot Branch</h3>
+                  <address class="body-4">
+                    Anjuman Complex, Navanagar <br />
+                    Bagalkot, Karnataka 587103
+                  </address>
+                  <p class="body-4">Open: 11:00 am - 9:30 pm</p>
+                  <span class="store-card-cta label-1">See store gallery</span>
+                </div>
+              </a>
+              <a
+                class="store-card"
+                href="/stores/bijapur.html"
+                aria-label="View Bijapur branch gallery"
+              >
                 <figure
                   class="card-banner img-holder"
                   style="--width: 300; --height: 200"
@@ -236,17 +253,20 @@ const markup = `
                     width="300"
                     height="200"
                     loading="lazy"
-                    alt="Vidyagiri Branch"
+                    alt="Bijapur branch exterior"
                     class="img-cover"
                   />
                 </figure>
-                <h3 class="title-2">Vidyagiri Branch</h3>
-                <address class="body-4">
-                  Vidyagiri Main Road <br />
-                  Bagalkot, Karnataka 587102
-                </address>
-                <p class="body-4">Open: 10:00 am - 10:00 pm</p>
-              </div>
+                <div class="store-card-content">
+                  <h3 class="title-2">Bijapur Branch</h3>
+                  <address class="body-4">
+                    MG Road, Shastri Nagar <br />
+                    Vijayapura, Karnataka 586101
+                  </address>
+                  <p class="body-4">Open: 12:00 pm - 10:30 pm</p>
+                  <span class="store-card-cta label-1">See store gallery</span>
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -391,7 +411,7 @@ const markup = `
               <a
                 href="tel:+911234567890"
                 class="body-1 contact-number hover-underline"
-                >+91 123 456 7890</a
+                >+91 74111 51139</a
               >
             </div>
             <figure class="about-banner">
@@ -1263,7 +1283,7 @@ const markup = `
           <div class="footer-brand has-before has-after">
             <a href="#home" class="logo">
               <img
-                src="/assets/images/logo.svg"
+                src="/assets/images/logo-white.png"
                 width="160"
                 height="50"
                 loading="lazy"
@@ -1277,7 +1297,7 @@ const markup = `
               >info@mrshawarma.com</a
             >
             <a href="tel:+911234567890" class="body-4 contact-link"
-              >Booking Request : +91-123-456-7890</a
+              >Booking Request : +91 74111 51139</a
             >
             <p class="body-4">Open : 11:00 am - 9:30 pm</p>
             <div class="wrapper">

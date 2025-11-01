@@ -425,7 +425,7 @@ About Us
 Who We Are
 
 A modern restaurant with a menu that will make your mouth water. Servicing delicious food 
-since 45 years.
+since 2020 years.
 Enjoy our seasonal menu and experience the beauty of naturalness
 Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived.
 
@@ -442,5 +442,4 @@ Monday to Sunday
 Contact Us
 Restaurant St, Delicious City, London 9578, UK
 
-+88-123-123456
-reservation@restro.com
++91-74111-51139
