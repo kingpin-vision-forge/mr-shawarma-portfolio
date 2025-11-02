@@ -451,9 +451,18 @@ body.nav-active {
 .section {
   position: relative;
   padding-block: var(--section-space);
-  padding-top: 120px; /* Increased top padding to fix overlap with fixed navbar */
   overflow: visible;
   z-index: 1;
+}
+
+body:not(:has(.topbar)) main {
+  padding-top: 120px;
+}
+
+@media (min-width: 992px) {
+  body:not(:has(.topbar)) main {
+    padding-top: 140px;
+  }
 }
 
 .bg-black-10 {
@@ -1705,6 +1714,12 @@ textarea.input-field {
   letter-spacing: var(--letterSpacing-4);
   margin-inline: auto;
   transition: var(--transition-1);
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
 }
 
 .footer-link:is(:hover, :focus-visible) {
@@ -1909,11 +1924,15 @@ textarea.input-field {
    * HEADER
    */
 
-.header {
+body:not(:has(.topbar)) .header {
+  top: 0;
+}
+
+body:has(.topbar) .header {
   top: 51px;
 }
 
-.header.active {
+body:has(.topbar) .header.active {
   top: 0;
 }
 

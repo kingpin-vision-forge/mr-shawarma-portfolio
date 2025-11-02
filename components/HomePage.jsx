@@ -1362,44 +1362,29 @@ const markup = `
           </ul>
           <ul class="footer-list">
             <li>
-              <a
-                href="https://www.facebook.com/mrshawarma"
-                target="_blank"
-                class="label-2 footer-link hover-underline"
-                >Facebook</a
-              >
+              <button type="button" class="label-2 footer-link hover-underline">
+                Facebook
+              </button>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/mrshawarma"
-                target="_blank"
-                class="label-2 footer-link hover-underline"
-                >Instagram</a
-              >
+              <button type="button" class="label-2 footer-link hover-underline">
+                Instagram
+              </button>
             </li>
             <li>
-              <a
-                href="https://www.twitter.com/mrshawarma"
-                target="_blank"
-                class="label-2 footer-link hover-underline"
-                >Twitter</a
-              >
+              <button type="button" class="label-2 footer-link hover-underline">
+                Twitter
+              </button>
             </li>
             <li>
-              <a
-                href="https://www.youtube.com/mrshawarma"
-                target="_blank"
-                class="label-2 footer-link hover-underline"
-                >Youtube</a
-              >
+              <button type="button" class="label-2 footer-link hover-underline">
+                Youtube
+              </button>
             </li>
             <li>
-              <a
-                href="https://maps.google.com/?q=Mr.Shawarma+Bagalkot"
-                target="_blank"
-                class="label-2 footer-link hover-underline"
-                >Google Map</a
-              >
+              <button type="button" class="label-2 footer-link hover-underline">
+                Google Map
+              </button>
             </li>
           </ul>
         </div>
