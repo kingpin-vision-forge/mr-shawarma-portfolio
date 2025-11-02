@@ -260,7 +260,7 @@ const markup = `
                 <div class="store-card-content">
                   <h3 class="title-2">Bijapur Branch</h3>
                   <address class="body-4">
-                    MG Road, Shastri Nagar <br />
+                    Opposite Hotel Madhuvan, Near Ibrahimpur Railway Station <br />
                     Vijayapura, Karnataka 586101
                   </address>
                   <p class="body-4">Open: 12:00 pm - 10:30 pm</p>
